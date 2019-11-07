@@ -78,12 +78,11 @@
       Layer 7: 70 weak classifiers 0.458 <br/>
       
 * Failure to evaluate the full cascade led to appending the monolithic classifier to the cascade (out of curiosity)
-    * Calling this an "extended classifier"
     * Test on direct front face images: 2284 / 2429 (TPR of 0.94)
     * Test on challenging face images: 83 / 472 (TPR: 0.18)
     * Test on nonface images: 57 / 28121 (FPR: 0.002)
       
-* Sliding window samples evaluated with the extended classifier: <br/>
+* Sliding window samples evaluated with the original cascade: <br/>
 ![alt text](https://github.com/evnlzc/ViolaJones/blob/master/images/conan.jpg) &nbsp;
 ![alt text](https://github.com/evnlzc/ViolaJones/blob/master/images/conan.png) <br/>
 ![alt text](https://github.com/evnlzc/ViolaJones/blob/master/images/alias.jpg) &nbsp;
