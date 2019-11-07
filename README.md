@@ -2,6 +2,7 @@
 
 #### A personal ML/CV project implementing Viola and Jones' algorithm for face detection using Python
 * https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf
+* https://courses.cs.washington.edu/courses/cse455/17wi/notes/FaceDetection17.pdf
 
 
 ### Requirements
@@ -108,18 +109,3 @@
     * Works quite well with resized images - possibly rescale upwards with bounded boxes
     * Investigate the possibility of more image processing (blurring to remove noise, sharpen edges)
     * More investigation needed into false positives of seemingly homogenous regions
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-    
